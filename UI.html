@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        button:hover{
+            cursor:pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 ">
+        <h2 class="text-primary mt-3 text-center">Currency Converter</h2>
+        <div class="card shadow-lg p-4">
+        <form action="">
+            <div class="mb-3">
+                <label for="" class="form-label">Enter amount</label>
+                <input type="number" value="1" class="form-control">
+            </div>
+
+            <label for="" class="form-label text-primary">FROM</label>
+
+            <div class="d-flex align-items-center gap-2 mb-3">
+            <img id="fromFlag" src="https://flagsapi.com/US/flat/64.png" alt="" width="40">
+            <select name="from" id="" class="form-select">
+            </select>
+            </div>
+
+            <label for="" class="form-label text-primary">TO</label>
+
+            <div class="d-flex align-items-center gap-2 mb-3">
+            <img id="toFlag" src="https://flagsapi.com/IN/flat/64.png" alt="" width="40">
+            <select name="to" id="" class="form-select">
+            </select>
+            </div>
+
+            <h5 class="text-success mt-3">1$=94 INR</h5>
+            <button class="btn btn-primary mt-4 fw-bold">Covert Currency</button>
+        </form>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="logic.js"></script>
+    
+</body>
+</html>
